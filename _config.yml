@@ -29,6 +29,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://benderas7.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  benderas7
+github: [metadata]
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -36,6 +37,9 @@ minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+# Include in processing
+include: ["_pages"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
