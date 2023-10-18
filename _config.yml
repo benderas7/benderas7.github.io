@@ -41,6 +41,23 @@ plugins:
 # Include in processing
 include: ["_pages"]
 
+# Author profile
+author:
+  name: "Andrew Bender, M.S."
+  avatar: "/assets/images/Professional.jpg"
+  bio:
+  location: "San Diego, CA"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:andrew.bender710@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/benderas7"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/asbender/"
+
 # Set defaults
 defaults:
   # _pages
@@ -58,7 +75,6 @@ defaults:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-
 exclude:
   - .sass-cache/
   - .jekyll-cache/
