@@ -67,6 +67,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: wide
 
 # Exclude from processing.
 # The following items will not be processed, by default.

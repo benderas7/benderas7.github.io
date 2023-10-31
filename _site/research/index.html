@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Andrew Bender</title>
+<!-- begin _includes/seo.html --><title>Graduate research - Andrew Bender</title>
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
 
 
@@ -20,7 +20,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Andrew Bender">
-<meta property="og:title" content="Andrew Bender">
+<meta property="og:title" content="Graduate research">
 <meta property="og:url" content="http://localhost:4000/research/">
 
 
@@ -88,7 +88,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--single wide">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -149,7 +149,7 @@
   
     <div class="author__avatar">
       
-        <img src="/assets/images/Professional.jpeg" alt="Andrew Bender, M.S." itemprop="image">
+        <img src="/assets/images/Professional.jpg" alt="Andrew Bender, M.S." itemprop="image">
       
     </div>
   
@@ -181,7 +181,7 @@
           
         
           
-            <li><a href="https://www.linkedin.com/in/andrew-bender-710/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://www.linkedin.com/in/asbender/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
           
         
       
@@ -251,7 +251,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    
+    <meta itemprop="headline" content="Graduate research">
     
     
     
@@ -259,7 +259,8 @@
     <div class="page__inner-wrap">
       
         <header>
-          
+          <h1 id="page-title" class="page__title" itemprop="headline">Graduate research
+</h1>
           
 
 
@@ -268,7 +269,39 @@
 
       <section class="page__content" itemprop="text">
         
-        
+        <h2 id="graduate-research">Graduate research</h2>
+
+<h3 id="resting-state-is-not-enough-alpha-and-mu-rhythms-change-shape-across-development-but-lack-diagnostic-sensitivity">Resting-state is not enough: alpha and mu rhythms change shape across development, but lack diagnostic sensitivity</h3>
+
+<p class="text-justify">This research is posted on <a href="https://www.biorxiv.org/content/10.1101/2023.10.13.562301v1.full">bioRxiv</a> and under review at the <em>Journal of Neuroscience</em>! The analysis code is available on <a href="https://github.com/nschawor/eeg-mu-alpha-development">GitHub</a>.</p>
+
+<p class="text-justify">Alpha rhythms in occipital cortex and mu rhythms in sensorimotor cortex are two of the most prominent rhythms in the human brain. They have similiar characteristic frequencies in the canonical alpha band (8-12 Hz) and serve important functions in gating modality-specific information.</p>
+
+<p><img src="/assets/images/alpha_mu_traces.png" alt="" class="align-center" /></p>
+
+<p class="text-justify">Both alpha-band rhythms have been implicated in autism spectrum disorder (ASD) and attention-deficit hyperactivity disorder (ADHD) in disorder-relevant tasks (e.g., social encoding tasks for ASD and attention-demanding tasks for ADHD). In this project, we investigated whether these rhythms could serve as biomarkers for these developmental disorders in resting-state electroencephalography (EEG). Such biomarkers would greatly aid in developing effective early diagnostic tools for ASD and ADHD.</p>
+
+<p class="text-justify">We used an <a href="http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/index.html">openly available developmental dataset</a> of resting-state EEG recordings from nearly 3000 children (ages 5-18) from the <a href="https://childmind.org/">Child Mind Institute</a> published by <a href="https://www.nature.com/articles/sdata2017181">Alexander and colleagues (2017)</a>. We isolated high-fidelity alpha and mu rhythms from these recordings using an computationally efficient integration of <a href="https://www.nature.com/articles/s41593-020-00744-x">spectral parameterization</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1053811911000930">spatial filters</a>, and source localization. We then used burst detection and <a href="https://journals.physiology.org/doi/full/10.1152/jn.00273.2019">waveform shape analysis</a> to characterized the waveform shape of these isolated alpha and mu rhythms:</p>
+
+<p><img src="/assets/images/waveform_feats.png" alt="" class="align-center" /></p>
+
+<p class="text-justify">First, we demonstrated that alpha rhythms are lower frequency, less asymmetrical, and higher amplitude than mu rhythms:</p>
+
+<p><img src="/assets/images/alpha_vs_mu_feats.png" alt="" class="align-center" /></p>
+
+<p class="text-justify">Next, we discovered that alpha and mu rhythms change differently across development:</p>
+
+<p><img src="/assets/images/fig3_age.png" alt="Alpha and mu rhythm waveform features show differential changes across development." class="align-center" /></p>
+
+<p class="text-justify">Finally, we showed that neither alpha nor mu rhythms are sensitive biomarkers in resting-state EEG:</p>
+
+<p><img src="/assets/images/fig4_diagnosis.png" alt="Resting-state alpha and mu waveform features across ADHD and ASD diagnoses compared to typically developing participants." class="align-center" /></p>
+
+<h3 id="decoding-spatial-location-from-aperiodic-and-alpha-oscillatory-activity">Decoding spatial location from aperiodic and alpha oscillatory activity</h3>
+
+<h2 id="undergraduate-research">Undergraduate research</h2>
+
+<h3 id="classification-of-autism-spectrum-disorder-using-machine-learning">Classification of autism spectrum disorder using machine learning</h3>
 
         
       </section>
