@@ -1,5 +1,6 @@
 ---
 permalink: /research/
+title: "Research Projects"
 ---
 ## Graduate research
 
@@ -21,20 +22,20 @@ We used an [openly available developmental dataset](http://fcon_1000.projects.ni
 
 ![](/assets/images/waveform_feats.png){: .align-center}
 
-First, we demonstrated that alpha rhythms are lower frequency, less asymmetrical, and higher amplitude than mu rhythms:
+First, we demonstrated that alpha rhythms are lower frequency, less asymmetrical, and higher amplitude than mu rhythms. These results quantifiably replicate qualitative differences in alpha and mu at an unprecendented scale:
 {: .text-justify}
 
 ![](/assets/images/alpha_vs_mu_feats.png){: .align-center}
 
-Next, we discovered that alpha and mu rhythms change differently across development:
+Next, we discovered that alpha and mu rhythms are significantly different at age five and change differently across development:
 {: .text-justify}
 
-![Alpha and mu rhythm waveform features show differential changes across development.](/assets/images/fig3_age.png){: .align-center}
+![](/assets/images/fig3_age.png){: .align-center}
 
-Finally, we showed that neither alpha nor mu rhythms are sensitive biomarkers in resting-state EEG:
+Finally, we showed that neither alpha nor mu rhythms are sensitive biomarkers in resting-state EEG, implying sensitive EEG biomarkers for ASD and ADHD may require deficit-specific task operalization:
 {: .text-justify}
 
-![Resting-state alpha and mu waveform features across ADHD and ASD diagnoses compared to typically developing participants.](/assets/images/fig4_diagnosis.png){: .align-center}
+![](/assets/images/fig4_diagnosis.png){: .align-center}
 
 
 ### Decoding spatial location from aperiodic and alpha oscillatory activity
