@@ -2,6 +2,7 @@
 permalink: /about/
 header: 
     image: /assets/images/LeechAPNeuron.png
+    caption: "Leech anterior pagoda neuron, Neurosciences PhD Boot Camp"
 ---
   I love [my research](), [my lab](https://voyteklab.com/), and the wonderfully monotonous weather that everyone else in San Diego (who did not grow up in Minnesota) manages to still find ways to complain about.
 
