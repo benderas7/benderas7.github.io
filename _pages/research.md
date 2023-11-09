@@ -4,10 +4,8 @@ title: false
 ---
 ## Developmental changes in alpha and mu rhythms
 
-We recently published this work on *bioRxiv* and it is under review at the *Journal of Neuroscience*:
-
-- **Bender A.**, Voytek B.\*, Schaworonkow N.\* Resting-state is not enough: alpha and mu rhythms change shape across development, but lack diagnostic sensitivity]. doi: [https://doi.org/10.1101/2023.10.13.562301](https://doi.org/10.1101/2023.10.13.562301). \*These authors contributed equally to this work. 
-{: .text-justify}
+**Update**: We recently published this work on *bioRxiv* and it is under review at the *Journal of Neuroscience*!
+{: .notice--info}
 
 <img src="/assets/images/alpha_mu_traces.png" width="400">{: .align-right}
 **Background**: Alpha rhythms in occipital cortex and mu rhythms in sensorimotor cortex are two of the most prominent rhythms in the human brain. They have similiar characteristic frequencies in the canonical alpha band (8-12 Hz) and serve important functions in gating modality-specific information. Both alpha-band rhythms have been implicated in autism spectrum disorder (ASD) and attention-deficit hyperactivity disorder (ADHD) in disorder-relevant tasks (e.g., social encoding tasks for ASD and attention-demanding tasks for ADHD). In this project, we investigated whether these rhythms could serve as biomarkers for these developmental disorders in resting-state electroencephalography (EEG). Such biomarkers would greatly aid in developing effective early diagnostic tools for ASD and ADHD.
@@ -33,6 +31,14 @@ Finally, we showed that neither alpha nor mu rhythms are sensitive biomarkers in
 across development. While none of these resting-state changes appear to be associated with common neurodevelopmental disorders, characterizing differences across rhythm types remains
 vital for constraining generative models for alpha-band rhythms.
 
-<!-- ## Decoding spatial location from aperiodic and alpha oscillatory activity
+- **Manuscript**
+    - **Bender A.**, Voytek B.\*, Schaworonkow N.\* Resting-state is not enough: alpha and mu rhythms change shape across development, but lack diagnostic sensitivity. doi: [https://doi.org/10.1101/2023.10.13.562301](https://doi.org/10.1101/2023.10.13.562301). \*These authors contributed equally to this work. 
+- **Presentations**
+    - **Bender, A.**, Schaworonkow, N., Voytek, B. Age-related changes in alpha and mu oscillation amplitude and waveform asymmetry. Society for Neuroscience. 2022, November 16; San Diego, CA.
+    - **Bender, A.**, Schaworonkow, N., Voytek, B. Quantifying waveform shape of EEG alpha and mu oscillations across development. Cognitive Neuroscience Society. 2022, April 26; San Francisco, CA.
+    - **Bender, A.**, Schaworonkow, N., Voytek, B. Quantifying waveform shape of EEG alpha and mu oscillations across development. Society for Neuroscience. 2021, November 9; remote.
+{: .text-justify}
 
-## Classification of autism spectrum disorder using machine learning -->
+## Decoding spatial location from aperiodic and alpha oscillatory activity
+
+## Classification of autism spectrum disorder using machine learning

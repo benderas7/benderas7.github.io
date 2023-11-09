@@ -463,7 +463,7 @@ tr, td, th { vertical-align: middle; }
 /* ========================================================================== NOTICE TEXT BLOCKS ========================================================================== */
 /** Default Kramdown usage (no indents!): <div class="notice" markdown="1"> #### Headline for the Notice Text for the notice </div> */
 /* Default notice */
-.notice { margin: 2em 0 !important; /* override*/ padding: 1em; color: #000; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em !important; text-indent: initial; /* override*/ background-color: #f2f3f3; border-radius: 4px; box-shadow: 0 1px 1px rgba(189, 193, 196, 0.25); }
+.notice { margin: 2em 0 !important; /* override*/ padding: 1em; color: #000; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1em !important; text-indent: initial; /* override*/ background-color: #f2f3f3; border-radius: 4px; box-shadow: 0 1px 1px rgba(189, 193, 196, 0.25); }
 .notice h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
 .page__content .notice h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; }
 .notice p:last-child { margin-bottom: 0 !important; /* override*/ }
@@ -476,7 +476,7 @@ blockquote.notice { border-left-color: #aaaeb0; }
 .notice ul:last-child { margin-bottom: 0; /* override*/ }
 
 /* Primary notice */
-.notice--primary { margin: 2em 0 !important; /* override*/ padding: 1em; color: #000; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em !important; text-indent: initial; /* override*/ background-color: #ffcccc; border-radius: 4px; box-shadow: 0 1px 1px rgba(255, 0, 0, 0.25); }
+.notice--primary { margin: 2em 0 !important; /* override*/ padding: 1em; color: #000; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1em !important; text-indent: initial; /* override*/ background-color: #ffcccc; border-radius: 4px; box-shadow: 0 1px 1px rgba(255, 0, 0, 0.25); }
 .notice--primary h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
 .page__content .notice--primary h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; }
 .notice--primary p:last-child { margin-bottom: 0 !important; /* override*/ }
@@ -489,7 +489,7 @@ blockquote.notice--primary { border-left-color: #e60000; }
 .notice--primary ul:last-child { margin-bottom: 0; /* override*/ }
 
 /* Info notice */
-.notice--info { margin: 2em 0 !important; /* override*/ padding: 1em; color: #000; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em !important; text-indent: initial; /* override*/ background-color: #d8ebf1; border-radius: 4px; box-shadow: 0 1px 1px rgba(59, 156, 186, 0.25); }
+.notice--info { margin: 2em 0 !important; /* override*/ padding: 1em; color: #000; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1em !important; text-indent: initial; /* override*/ background-color: #d8ebf1; border-radius: 4px; box-shadow: 0 1px 1px rgba(59, 156, 186, 0.25); }
 .notice--info h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
 .page__content .notice--info h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; }
 .notice--info p:last-child { margin-bottom: 0 !important; /* override*/ }
@@ -502,7 +502,7 @@ blockquote.notice--info { border-left-color: #358ca7; }
 .notice--info ul:last-child { margin-bottom: 0; /* override*/ }
 
 /* Warning notice */
-.notice--warning { margin: 2em 0 !important; /* override*/ padding: 1em; color: #000; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em !important; text-indent: initial; /* override*/ background-color: #f7e5cd; border-radius: 4px; box-shadow: 0 1px 1px rgba(214, 127, 5, 0.25); }
+.notice--warning { margin: 2em 0 !important; /* override*/ padding: 1em; color: #000; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1em !important; text-indent: initial; /* override*/ background-color: #f7e5cd; border-radius: 4px; box-shadow: 0 1px 1px rgba(214, 127, 5, 0.25); }
 .notice--warning h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
 .page__content .notice--warning h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; }
 .notice--warning p:last-child { margin-bottom: 0 !important; /* override*/ }
@@ -515,7 +515,7 @@ blockquote.notice--warning { border-left-color: #c17205; }
 .notice--warning ul:last-child { margin-bottom: 0; /* override*/ }
 
 /* Success notice */
-.notice--success { margin: 2em 0 !important; /* override*/ padding: 1em; color: #000; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em !important; text-indent: initial; /* override*/ background-color: #d9edd9; border-radius: 4px; box-shadow: 0 1px 1px rgba(63, 166, 63, 0.25); }
+.notice--success { margin: 2em 0 !important; /* override*/ padding: 1em; color: #000; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1em !important; text-indent: initial; /* override*/ background-color: #d9edd9; border-radius: 4px; box-shadow: 0 1px 1px rgba(63, 166, 63, 0.25); }
 .notice--success h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
 .page__content .notice--success h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; }
 .notice--success p:last-child { margin-bottom: 0 !important; /* override*/ }
@@ -528,7 +528,7 @@ blockquote.notice--success { border-left-color: #399539; }
 .notice--success ul:last-child { margin-bottom: 0; /* override*/ }
 
 /* Danger notice */
-.notice--danger { margin: 2em 0 !important; /* override*/ padding: 1em; color: #000; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em !important; text-indent: initial; /* override*/ background-color: #fcdfde; border-radius: 4px; box-shadow: 0 1px 1px rgba(238, 95, 91, 0.25); }
+.notice--danger { margin: 2em 0 !important; /* override*/ padding: 1em; color: #000; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1em !important; text-indent: initial; /* override*/ background-color: #fcdfde; border-radius: 4px; box-shadow: 0 1px 1px rgba(238, 95, 91, 0.25); }
 .notice--danger h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
 .page__content .notice--danger h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; }
 .notice--danger p:last-child { margin-bottom: 0 !important; /* override*/ }
@@ -1284,4 +1284,4 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .page__hero-caption a { color: #000 !important; }
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
-html { font-size: 1.2em; }
+html { font-size: 1.15em; }
