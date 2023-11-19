@@ -65,4 +65,9 @@ By contrast, encoding of spatial locaiton by the aperiodic exponent peaks during
 **Conclusion**: We confirmed previous findings that the topography of alpha oscillatory activity encodes spatial location in working memory, deconfounding these effects from changes in aperiodic activity. Furthermore, we discovered that the aperiodic exponent encodes spatial location during the first 400 ms after stimulus presentation. Together, these findings highlight the utility of sliding-window spectral parameterization to decouple and characterize two, time-varying, physiologically distinct neural mechanisms for encoding and working memory.
 {: .text-justify}
 
+- **Manuscript**
+    - **Bender A.**, Zhao, C., Awh E., Vogel E., Voytek B., Distinct, time-varying roles for aperiodic and alpha oscillatory activity in working memory. *In preparation*.
+- **Presentation**
+    - **Bender, A.**, Voytek, B. Decoding spatial location from aperiodic and alpha oscillatory activity in working memory. Society for Neuroscience. 2023, November 13; San Diego, CA.
+
 ## Classification of autism spectrum disorder using machine learning
