@@ -34,9 +34,9 @@ vital for constraining generative models for alpha-band rhythms.
 - **Manuscript**
     - **Bender A.**, Voytek B.\*, Schaworonkow N.\* Resting-state is not enough: alpha and mu rhythms change shape across development, but lack diagnostic sensitivity. doi: [https://doi.org/10.1101/2023.10.13.562301](https://doi.org/10.1101/2023.10.13.562301). \*These authors contributed equally to this work. 
 - **Presentations**
-    - **Bender, A.**, Schaworonkow, N., Voytek, B. Age-related changes in alpha and mu oscillation amplitude and waveform asymmetry. Society for Neuroscience. 2022, November 16; San Diego, CA.
-    - **Bender, A.**, Schaworonkow, N., Voytek, B. Quantifying waveform shape of EEG alpha and mu oscillations across development. Cognitive Neuroscience Society. 2022, April 26; San Francisco, CA.
-    - **Bender, A.**, Schaworonkow, N., Voytek, B. Quantifying waveform shape of EEG alpha and mu oscillations across development. Society for Neuroscience. 2021, November 9; remote.
+    - **Bender, A.**, Schaworonkow, N., Voytek, B. Age-related changes in alpha and mu oscillation amplitude and waveform asymmetry. *Society for Neuroscience*; 2022, November 16; San Diego, CA.
+    - **Bender, A.**, Schaworonkow, N., Voytek, B. Quantifying waveform shape of EEG alpha and mu oscillations across development. *Cognitive Neuroscience Society*; 2022, April 26; San Francisco, CA.
+    - **Bender, A.**, Schaworonkow, N., Voytek, B. Quantifying waveform shape of EEG alpha and mu oscillations across development. *Society for Neuroscience*; 2021, November 9; remote.
 {: .text-justify}
 
 ## Decoding spatial location from aperiodic and alpha oscillatory activity
@@ -44,7 +44,7 @@ vital for constraining generative models for alpha-band rhythms.
 **Background**: Working memory (WM) refers to one’s ability to hold and manipulate a limited amount of information in mind for a short period of time, usually on the order of seconds, and is integral to many other cognitive functions. Previous work from [Foster and colleagues (2016)](https://journals.physiology.org/doi/full/10.1152/jn.00860.2015) demonstrated that the topopgraphy of alpha-band activity (8–12 Hz) tracks the spatial location in stimuli in WM, suggesting that alpha oscillations coordinate the cellular assemblies that code the content of WM. Previous work in our lab by [Donoghue, Haller, Peterson, et al., (2020)](https://www.nature.com/articles/s41593-020-00744-x) has shown that standard spectral analyses can conflate oscillatory changes with change in aperiodic activity. In this project, we sought to distiniguish the roles of alpha oscillatory and aperiodic activity in WM using sliding-window [spectral parameterization](https://fooof-tools.github.io/fooof/) to ensure the development of an accurate physiological understanding of visual WM and the true role of alpha oscillations therein.
 {: .text-justify}
 
-**Methods**: In collaboration with [Drs. Ed Awh and Ed Vogel](https://awhvogellab.com/), we used EEG data from participants at the University of Oregon (*n* = 56) and the University of Chicago (*n* = 56) that came from three published, publically available datasets ([Foster et al., (2016)](https://journals.physiology.org/doi/full/10.1152/jn.00860.2015), [Foster et al., (2017)](https://www.sciencedirect.com/science/article/pii/S096098221731196X), [Sutterer et al., (2019)](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000239)). Even though the EEG data come from seven different tasks, all data were collected while participants attended and remembered features of stimuli presented around fixation across a delay, requiring WM. All tasks were continuous report, where participants were required to report the location, color, or orientation of the target stimulus, except for task 3, where participants only had to indicate whether there was a change in the probe stimulus from the target stimulus:
+**Methods**: In collaboration with [Drs. Ed Awh and Ed Vogel](https://awhvogellab.com/), we used EEG data from participants at the University of Oregon (*n* = 56) and the University of Chicago (*n* = 56) that came from three published, publically available datasets ([Foster et al., 2016](https://journals.physiology.org/doi/full/10.1152/jn.00860.2015); [Foster et al., 2017](https://www.sciencedirect.com/science/article/pii/S096098221731196X); [Sutterer et al., 2019](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000239)). Even though the EEG data come from seven different tasks, all data were collected while participants attended and remembered features of stimuli presented around fixation across a delay, requiring WM. All tasks were continuous report, where participants were required to report the location, color, or orientation of the target stimulus, except for task 3, where participants only had to indicate whether there was a change in the probe stimulus from the target stimulus:
 {: .text-justify}
 <img src="/assets/images/wm_tasks.png" width="700">{: .align-center}
 
@@ -68,6 +68,35 @@ By contrast, encoding of spatial locaiton by the aperiodic exponent peaks during
 - **Manuscript**
     - **Bender A.**, Zhao, C., Awh E., Vogel E., Voytek B., Distinct, time-varying roles for aperiodic and alpha oscillatory activity in working memory. *In preparation*.
 - **Presentation**
-    - **Bender, A.**, Voytek, B. Decoding spatial location from aperiodic and alpha oscillatory activity in working memory. Society for Neuroscience. 2023, November 13; San Diego, CA.
+    - **Bender, A.**, Voytek, B. Decoding spatial location from aperiodic and alpha oscillatory activity in working memory. *Society for Neuroscience*; 2023, November 13; San Diego, CA.
 
-## Classification of autism spectrum disorder using machine learning
+## Classification of autism spectrum disorder from structural and functional magnetic resonance imaging using machine learning
+
+**Background**: Machine learning and deep neural networks have shown promise in helping to diagnose diseases such as Alzheimer’s disease from neuroimaging datasets. Given the utility machine learning has already shown in diagnosing diseases, here we aimed to develop machine learning classifiers, including a deep residual neural network called ASDNet, that can classify autism spectrum disorder (ASD) from neuroimaging data. Because early diagnosis and early treatment can improve quality of life for individuals with ASD and their families and current diagnostic measures can only be used with children 12 months and older, machine learning shows promise for enabling earlier diagnosis and treatment of ASD. 
+{: .text-justify}
+
+<img src="/assets/images/ASDNet.png" width="170">{: .align-right}
+**Methods**: We used the following publicly available preprocessed data from the Autism Brain Imaging Data Exchange (ABIDE) ([Di Martino et al., 2014](https://www.nature.com/articles/mp201378)): (1) T<sub>1</sub>-weighted structural magnetic resonance imaging (sMRI), (2) 3D volumes of voxel-wise cortical thickness, and (3) mean functional activation volumes from 531 individuals with ASD and 570 typically developing individuals.
+{: .text-justify}
+
+We created nearest neighbor, Naïve Bayes, and linear discriminant analysis (LDA) classifiers to diagnose ASD on the first 1100 principal components for each individual imaging modality (structural, cortical thickness, and functional). We also trained classifiers for each combination of imaging modalities (e.g., structural + functional). We used 8-fold cross-validation to validate classifier performance. In addition, we trained a custom-built GPU implementation of a deep 3D residual neural network in TensorFlow to perform the classification, following a similiar architecture to a network used to diagnose Alzheimer's disease from neuroimaging data ([Yang et al., 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371279/)). The complete architecture of ASDNet is shown to the right.
+{: .text-justify}
+
+**Results**: The classification accuracy for each classifier on the structural, cortical thickness, and function volumes is shown below:
+<img src="/assets/images/classifier_performance.png" width="700">{: .align-center}
+
+LDA had the best average classification accuracy across the three types of imaging out of the four classification methods, with ASDNet classifying structural and cortical thickness volumes with similar accuracy and performing worse on the functional volumes than LDA. Putting data from two imaging types together into an ensemble increased classification accuracy with all three classifiers it was attempted with (LDA, Naïve-Bayes, and nearest neighbors). The ensemble containing all three imaging types performed the best. Finally, use of cortical thickness volumes and functional volumes led to higher classification than use of structural MRI, although the pairwise combinations of imaging types as an ensemble led to similar classification accuracies for all three pairwise combinations.  
+{: .text-justify}
+
+We further showed through [distance to bound analysis](https://www.frontiersin.org/articles/10.3389/fnins.2016.00190/full) that structural, cortical thickness, and functional differences extracted by classifiers were significantly correlated to Autism Diagnostic Observation Schedule (ADOS) ([Lord et al., 2000](https://pubmed.ncbi.nlm.nih.gov/11055457/)) scores, a common behavioral assessment for ASD that is considered to have state-of-the-art sensitivity ([Randall et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30075057/)).
+{: .text-justify}
+
+**Conclusion**: The classification achieved was significantly above chance, but far below that which would be required for any utility in early diagnostics of ASD. There are a variety of possible causes—relatively raw neuroimaging data, limited training data (~1000 subjects of high-dimensional data is nothing compared to the training sets used on most deep ANNs), insufficient hyperparameter tuning—to name a few, and I would have approached this problem differently had I continued this research in graduate school. Nonetheless, I cultivated many technical skills that have benefitted my graduate career immensely and machine learning still shows great potential as an early diagnostic tool to reduce the financial, psychosocial, and developmental burden of ASD on our society despite our inability to demonstrate so with this particular work.
+{: .text-justify}
+
+- **Honors Thesis**
+    - **Bender, A.**, Tovar, D.A., Wallace, M.T. Classification of Autism Spectrum Disorder Using Machine Learning. *Honors Thesis Defense*; 2019, April 18; Nashville, TN.
+- **Presentations**
+    - **Bender, A.**, Tovar, D.A., Ramachandran, R., Wallace, M.T. ASDNet: Classification of autism from MRI images using residual neural networks. *Vanderbilt Translational Research Forum*; 2018, October 26; Nashville, TN.
+    - **Bender, A.**, Tovar, D.A., Ramachandran, R., Wallace, M.T. ASDNet: Classification of autism from MRI images using residual neural networks. *Summer Student Poster Presentations: Vanderbilt Undergraduate Research Fair*; 2018, September 27; Nashville, TN.
+{: .text-justify}
