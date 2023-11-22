@@ -95,7 +95,7 @@ We further showed through [distance to bound analysis](https://www.frontiersin.o
 {: .text-justify}
 
 - **Honors Thesis**
-    - **Bender, A.**, Tovar, D.A., Wallace, M.T. Classification of Autism Spectrum Disorder Using Machine Learning. *Honors Thesis Defense*; 2019, April 18; Nashville, TN.
+    - **Bender, A.**, Tovar, D.A., Wallace, M.T. Classification of Autism Spectrum Disorder Using Machine Learning. *Honors Thesis Defense*; 2019, April 18; Nashville, TN. ([paper](/files/HonorsThesisAB.pdf), [presentation](/files/HonorsThesisPresentationAB.pdf))
 - **Presentations**
     - **Bender, A.**, Tovar, D.A., Ramachandran, R., Wallace, M.T. ASDNet: Classification of autism from MRI images using residual neural networks. *Vanderbilt Translational Research Forum*; 2018, October 26; Nashville, TN.
     - **Bender, A.**, Tovar, D.A., Ramachandran, R., Wallace, M.T. ASDNet: Classification of autism from MRI images using residual neural networks. *Summer Student Poster Presentations: Vanderbilt Undergraduate Research Fair*; 2018, September 27; Nashville, TN.
