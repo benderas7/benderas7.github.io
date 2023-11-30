@@ -39,7 +39,7 @@ vital for constraining generative models for alpha-band rhythms.
     - **Bender, A.**, Schaworonkow, N., Voytek, B. Quantifying waveform shape of EEG alpha and mu oscillations across development. *Society for Neuroscience*; 2021, November 9; remote. ([presentation](/files/SfN2021Presentation.pdf))
 {: .text-justify}
 
-## Decoding spatial location from aperiodic and alpha oscillatory activity
+## Representations of spatial location by aperiodic and alpha oscillatory activity in working memory
 
 **Background**: Working memory (WM) refers to one’s ability to hold and manipulate a limited amount of information in mind for a short period of time, usually on the order of seconds, and is integral to many other cognitive functions. Previous work from [Foster and colleagues (2016)](https://journals.physiology.org/doi/full/10.1152/jn.00860.2015) demonstrated that the topopgraphy of alpha-band activity (8–12 Hz) tracks the spatial location in stimuli in WM, suggesting that alpha oscillations coordinate the cellular assemblies that code the content of WM. Previous work in our lab by [Donoghue, Haller, Peterson, et al., (2020)](https://www.nature.com/articles/s41593-020-00744-x) has shown that standard spectral analyses can conflate oscillatory changes with change in aperiodic activity. In this project, we sought to distiniguish the roles of alpha oscillatory and aperiodic activity in WM using sliding-window [spectral parameterization](https://fooof-tools.github.io/fooof/) to ensure the development of an accurate physiological understanding of visual WM and the true role of alpha oscillations therein.
 {: .text-justify}
