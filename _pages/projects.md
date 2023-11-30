@@ -3,7 +3,7 @@ permalink: /projects/
 title: false
 ---
 # Extracurricular Projects
-Programming is one of my favorite aspects of my work as a graduate student and computational neuroscientist. It is both a frustrating and exhilirating intellectual exercise that requires both problem solving and perserverance, making it all the more rewarding when you are able to turn something that was once an idea into a functional product that humans can use (even if it's just me). Below are two of the projects I have worked on in my spare time, in part to gain expertise in programming skills outside the purview of my graduate research, but mostly for fun. 
+Programming is one of my favorite aspects of my work as a graduate student and computational neuroscientist. It is both a frustrating and exhilarating intellectual exercise that requires both problem solving and perseverance, making it all the more rewarding when you are able to turn something that was once an idea into a functional product that humans can use (even if it's just me). Below are two of the projects I have worked on in my spare time, in part to gain expertise in programming skills outside the purview of my graduate research, but mostly for fun. 
 {: .text-justify}
 
 ## AzulRL
