@@ -54,7 +54,7 @@ We computed spectrograms for each sensor and determined the aperiodic exponent a
 {: .text-justify}
 <img src="/assets/images/IEMs_tasks1-7.png" width="700">{: .align-center}
 
-Representation of spatial location by alpha oscillatory power was high throughout the delay period (blue line for each task above) in each of the seven tasks, supporting the idea that alpha oscillations act as a scaffolding signal that coordinate which of the underlying retinotopic cellular assemblies maintain the stimulus features in working memory. This representation of spatial location by alpha oscillatory power was significantly greater across the delay period than when location labels were shuffled:
+There is strong representation of spatial location by alpha oscillatory power throughout the delay period (blue line for each task above) in each of the seven tasks, supporting the idea that alpha oscillations act as a scaffolding signal that coordinate which of the underlying retinotopic cellular assemblies maintain the stimulus features in working memory. This representation of spatial location by alpha oscillatory power was significantly greater across the delay period than when location labels were shuffled:
 {: .text-justify}
 <img src="/assets/images/pw_ctf_slope_paired_ttest.png" width="700">{: .align-center}
 
