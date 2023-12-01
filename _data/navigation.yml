@@ -5,5 +5,7 @@ main:
     url: /research/
   - title: "Extracurricular Projects"
     url: /projects/
+  - title: "Resume"
+    url: /files/BenderResume.pdf
   - title: "CV"
     url: /files/BenderCV.pdf
