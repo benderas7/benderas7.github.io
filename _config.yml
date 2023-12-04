@@ -45,7 +45,7 @@ include: ["_pages"]
 author:
   name: "Andrew Bender, M.S."
   avatar: "/assets/images/Professional.jpg"
-  bio:
+  bio: "Computational neuroscientist and PhD candidate in the Voytek Lab @ UCSD.<br><br>Life is an optimization problem;<br>I am still unsure as to the proper objective function, but I think our collective well-being is a good starting point."
   location: "San Diego, CA"
   links:
     - label: "Email"
