@@ -45,8 +45,9 @@ include: ["_pages"]
 author:
   name: "Andrew Bender, M.S."
   avatar: "/assets/images/Professional.jpg"
-  bio: "Computational neuroscientist and PhD candidate in the Voytek Lab @ UCSD.<br><br>Life is an optimization problem;<br>I am still unsure as to the proper objective function, but I think our collective well-being is a good starting point."
+  bio: "Computational neuroscientist and PhD candidate in the Voytek Lab @ UCSD.<br><br>Life is an optimization problem;<br>I am still unsure of the proper objective function, but I think our collective well-being is a good starting point."
   location: "San Diego, CA"
+  
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -57,6 +58,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/asbender/"
+    - label: "Google Scholar"
+      icon: "fa fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH70aAUlihijRAZ-KG7WkUmnV4uxSHZtxEZ-srMVvdszTDD47SnASkILCGx5TYyMvKtuMjJE4MnLWXAqlEBTZyOWF93y&user=-nkwSnYAAAAJ"
 
 # Set defaults
 defaults:
@@ -78,6 +82,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/asbender/"
+    - label: "Google Scholar"
+      icon: "fa fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH70aAUlihijRAZ-KG7WkUmnV4uxSHZtxEZ-srMVvdszTDD47SnASkILCGx5TYyMvKtuMjJE4MnLWXAqlEBTZyOWF93y&user=-nkwSnYAAAAJ"
 
 # Disable feed
 atom_feed:
