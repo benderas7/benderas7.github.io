@@ -43,15 +43,15 @@ include: ["_pages"]
 
 # Author profile
 author:
-  name: "Andrew Bender, M.S."
+  name: "Andrew Bender, Ph.D."
   avatar: "/assets/images/Professional.jpg"
-  bio: "Computational neuroscientist and PhD candidate in the Voytek Lab @ UCSD.<br><br>Life is an optimization problem;<br>I am still unsure of the proper objective function, but I think our collective well-being is a good starting point."
+  bio: "Computational neuroscientist | Data scientist.<br><br>Life is an optimization problem;<br>I am still unsure of the proper objective function, but I think our collective well-being is a good starting point."
   location: "San Diego, CA"
   
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:andrew.bender710@gmail.com"
+      url: "mailto:andrew@asbender.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/benderas7"
