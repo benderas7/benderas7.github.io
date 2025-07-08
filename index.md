@@ -4,9 +4,7 @@ header:
     image: /assets/images/LeechAPNeuron.png
     caption: "Leech anterior pagoda neuron, Neurosciences PhD Boot Camp"
 ---
-**Hi, I'm Andrew** - welcome to my website! 
-
-I am an Associate Scientist at [Neurocrine Biosciences](https://www.meta.com/), where I am building a comprehensive Python package to score sleep data from rodent EEG. 
+**Hi, I'm Andrew** - welcome to my website! I am an Associate Scientist at [Neurocrine Biosciences](https://www.meta.com/), where I am building a comprehensive Python package to score sleep data from rodent EEG. 
 {: .text-justify}
 
 I did my PhD through the [Neurosciences Graduate Program](https://neurograd.ucsd.edu/) at UC San Diego, where I worked with [Dr. Bradley Voytek](https://cogsci.ucsd.edu/people/faculty/bradley-voytek.html) on brain mechanisms underlying cognitive functions like working memory. 
