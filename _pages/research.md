@@ -2,9 +2,43 @@
 permalink: /research/
 title: false
 ---
+## Representations of spatial location by aperiodic and alpha oscillatory activity in working memory
+
+**Update (July 2025)**: We recently published [this work](https://www.pnas.org/doi/full/10.1073/pnas.2506418122) in *PNAS*!
+{: .notice--info}
+
+**Background**: Working memory (WM) refers to one’s ability to hold and manipulate a limited amount of information in mind for a short period of time, usually on the order of seconds, and is integral to many other cognitive functions. Previous work from [Foster and colleagues (2016)](https://journals.physiology.org/doi/full/10.1152/jn.00860.2015) demonstrated that the topography of alpha-band activity (8–12 Hz) tracks the spatial location in stimuli in WM, suggesting that alpha oscillations coordinate the cellular assemblies that code the content of WM. Previous work in our lab by [Donoghue, Haller, Peterson, et al., (2020)](https://www.nature.com/articles/s41593-020-00744-x) has shown that standard spectral analyses can conflate oscillatory changes with change in aperiodic activity. In this project, we sought to distinguish the roles of alpha oscillatory and aperiodic activity in WM using sliding-window [spectral parameterization](https://fooof-tools.github.io/fooof/) to ensure the development of an accurate physiological understanding of visual WM and the true role of alpha oscillations therein.
+{: .text-justify}
+
+**Methods**: In collaboration with [Drs. Ed Awh and Ed Vogel](https://awhvogellab.com/), we used EEG data from participants at the University of Oregon (*n* = 56) and the University of Chicago (*n* = 56) that came from three published, publicly available datasets ([Foster et al., 2016](https://journals.physiology.org/doi/full/10.1152/jn.00860.2015); [Foster et al., 2017](https://www.sciencedirect.com/science/article/pii/S096098221731196X); [Sutterer et al., 2019](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000239)). Even though the EEG data come from seven different tasks, all data were collected while participants attended and remembered features of stimuli presented around fixation across a delay, requiring WM. All tasks were continuous report, where participants were required to report the location, color, or orientation of the target stimulus, except for task 3, where participants only had to indicate whether there was a change in the probe stimulus from the target stimulus:
+{: .text-justify}
+<img src="/assets/images/fig1_tasks.pdf" width="700">{: .align-center}
+
+We computed spectrograms for each sensor and determined the aperiodic exponent and alpha oscillatory power for each time point using [spectral parameterization](https://fooof-tools.github.io/fooof/). Following the procedure of the [Foster and colleagues (2016)](https://journals.physiology.org/doi/full/10.1152/jn.00860.2015), we then fit an inverted encoding model (IEM) to assess how strongly spatial location was represented by the aperiodic exponent and alpha oscillatory power throughout the trial.
+
+**Results**: We first reproduced the authors’ findings that total alpha power represents spatial location during WM. The channel tuning function (CTF) slope, which assesses how strongly the population activity in the alpha band represents the spatial location of the stimulus, increases soon after stimulus presentation and remains high throughout the delay period (red line for each task below): 
+{: .text-justify}
+<img src="/images/fig4_compare_model_fits_across_tasks_iem.pdf" width="700">{: .align-center}
+
+There is strong representation of spatial location by alpha oscillatory power throughout the delay period (blue line for each task above) in each of the seven tasks, supporting the idea that alpha oscillations act as a scaffolding signal that coordinate which of the underlying retinotopic cellular assemblies maintain the stimulus features in working memory. This representation of spatial location by alpha oscillatory power was significantly greater across the delay period than when location labels were shuffled:
+{: .text-justify}
+<img src="assets/images/fig5_compare_model_fit_timecourses.pdf" width="700">{: .align-center}
+
+By contrast, representation of spatial location by the aperiodic exponent peaks during the early portion of the stimulus presentation for all seven tasks (green line for each task above). Moreover, this early peak in aperiodic activity representation of spatial location occurs soon after stimulus onset regardless of the total stimulus presentation time, suggesting that aperiodic activity encodes spatial location quickly and automatically once the stimulus has been presented. This representation is consistent with previous work in our lab by [Gao et al., (2017)](https://www.sciencedirect.com/science/article/pii/S1053811917305621?via%3Dihub) that showed that the aperiodic exponent reflects the relative balance of excitation and inhibition in the underlying neural populations, such that a surge of excitation in the underlying neural populations necessary to encode the stimulus features during stimulus presentation is reflected in detectable changes in the EEG aperiodic exponent. The representation of spatial location by the aperiodic exponent was significantly greater in the first 400 ms following stimulus presentation than when location labels were shuffled:
+{: .text-justify}
+<img src="/assets/images/exp_ctf_slope_paired_ttest.png" width="700">{: .align-center}
+
+**Conclusion**: We confirmed previous findings that the topography of alpha oscillatory activity represents spatial location in working memory, deconfounding these effects from changes in aperiodic activity. Furthermore, we discovered that the aperiodic exponent represents spatial location during the first 400 ms after stimulus presentation. Together, these findings highlight the utility of sliding-window spectral parameterization to decouple and characterize two, time-varying, physiologically distinct neural mechanisms for encoding and working memory.
+{: .text-justify}
+
+- **Manuscript**
+    - **A. Bender**, C. Zhao, E. Awh, E. Vogel, B. Voytek. (2025). Differential representations of spatial location by aperiodic and alpha oscillatory activity in working memory. *Proceedings of the National Academy of Sciences*, 122(30), e2506418122. doi: https://doi.org/10.1073/pnas.2506418122.
+- **Presentation**
+    - **A. Bender,**, B. Voytek, Decoding spatial location from aperiodic and alpha oscillatory activity in working memory. *Society for Neuroscience*; 2023, November 13; San Diego, CA. ([presentation](/files/SfN2023Presentation.pdf))
+
 ## Developmental changes in alpha and mu rhythms
 
-**Update June 2025**: We recently published this work in the *Journal of Cognitive Neuroscience*!
+**Update (June 2025)**: We recently published [this work](https://direct.mit.edu/jocn/article-abstract/37/9/1581/128446/Resting-state-Alpha-and-Mu-Rhythms-Change-Shape?redirectedFrom=fulltext) in the *Journal of Cognitive Neuroscience*!
 {: .notice--info}
 
 <img src="/assets/images/alpha_mu_traces.png" width="400">{: .align-right}
@@ -41,37 +75,6 @@ vital for constraining generative models for alpha-band rhythms.
     - **A. Bender**, B. Voytek, N. Schaworonkow. Quantifying waveform shape of EEG alpha and mu oscillations across development. *Cognitive Neuroscience Society*; 2022, April 26; San Francisco, CA. ([poster](/files/CNS2022Poster.pdf))
     - **A. Bender**, B. Voytek, N. Schaworonkow. Quantifying waveform shape of EEG alpha and mu oscillations across development. *Society for Neuroscience*; 2021, November 9; remote. ([presentation](/files/SfN2021Presentation.pdf))
 {: .text-justify}
-
-## Representations of spatial location by aperiodic and alpha oscillatory activity in working memory
-
-**Background**: Working memory (WM) refers to one’s ability to hold and manipulate a limited amount of information in mind for a short period of time, usually on the order of seconds, and is integral to many other cognitive functions. Previous work from [Foster and colleagues (2016)](https://journals.physiology.org/doi/full/10.1152/jn.00860.2015) demonstrated that the topography of alpha-band activity (8–12 Hz) tracks the spatial location in stimuli in WM, suggesting that alpha oscillations coordinate the cellular assemblies that code the content of WM. Previous work in our lab by [Donoghue, Haller, Peterson, et al., (2020)](https://www.nature.com/articles/s41593-020-00744-x) has shown that standard spectral analyses can conflate oscillatory changes with change in aperiodic activity. In this project, we sought to distinguish the roles of alpha oscillatory and aperiodic activity in WM using sliding-window [spectral parameterization](https://fooof-tools.github.io/fooof/) to ensure the development of an accurate physiological understanding of visual WM and the true role of alpha oscillations therein.
-{: .text-justify}
-
-**Methods**: In collaboration with [Drs. Ed Awh and Ed Vogel](https://awhvogellab.com/), we used EEG data from participants at the University of Oregon (*n* = 56) and the University of Chicago (*n* = 56) that came from three published, publicly available datasets ([Foster et al., 2016](https://journals.physiology.org/doi/full/10.1152/jn.00860.2015); [Foster et al., 2017](https://www.sciencedirect.com/science/article/pii/S096098221731196X); [Sutterer et al., 2019](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000239)). Even though the EEG data come from seven different tasks, all data were collected while participants attended and remembered features of stimuli presented around fixation across a delay, requiring WM. All tasks were continuous report, where participants were required to report the location, color, or orientation of the target stimulus, except for task 3, where participants only had to indicate whether there was a change in the probe stimulus from the target stimulus:
-{: .text-justify}
-<img src="/assets/images/wm_tasks.png" width="700">{: .align-center}
-
-We computed spectrograms for each sensor and determined the aperiodic exponent and alpha oscillatory power for each time point using [spectral parameterization](https://fooof-tools.github.io/fooof/). Following the procedure of the [Foster and colleagues (2016)](https://journals.physiology.org/doi/full/10.1152/jn.00860.2015), we then fit an inverted encoding model (IEM) to assess how strongly spatial location was represented by the aperiodic exponent and alpha oscillatory power throughout the trial.
-
-**Results**: We first reproduced the authors’ findings that total alpha power represents spatial location during WM. The channel tuning function (CTF) slope, which assesses how strongly the population activity in the alpha band represents the spatial location of the stimulus, increases soon after stimulus presentation and remains high throughout the delay period (red line for each task below): 
-{: .text-justify}
-<img src="/assets/images/IEMs_tasks1-7.png" width="700">{: .align-center}
-
-There is strong representation of spatial location by alpha oscillatory power throughout the delay period (blue line for each task above) in each of the seven tasks, supporting the idea that alpha oscillations act as a scaffolding signal that coordinate which of the underlying retinotopic cellular assemblies maintain the stimulus features in working memory. This representation of spatial location by alpha oscillatory power was significantly greater across the delay period than when location labels were shuffled:
-{: .text-justify}
-<img src="/assets/images/pw_ctf_slope_paired_ttest.png" width="700">{: .align-center}
-
-By contrast, representation of spatial location by the aperiodic exponent peaks during the early portion of the stimulus presentation for all seven tasks (green line for each task above). Moreover, this early peak in aperiodic activity representation of spatial location occurs soon after stimulus onset regardless of the total stimulus presentation time, suggesting that aperiodic activity encodes spatial location quickly and automatically once the stimulus has been presented. This representation is consistent with previous work in our lab by [Gao et al., (2017)](https://www.sciencedirect.com/science/article/pii/S1053811917305621?via%3Dihub) that showed that the aperiodic exponent reflects the relative balance of excitation and inhibition in the underlying neural populations, such that a surge of excitation in the underlying neural populations necessary to encode the stimulus features during stimulus presentation is reflected in detectable changes in the EEG aperiodic exponent. The representation of spatial location by the aperiodic exponent was significantly greater in the first 400 ms following stimulus presentation than when location labels were shuffled:
-{: .text-justify}
-<img src="/assets/images/exp_ctf_slope_paired_ttest.png" width="700">{: .align-center}
-
-**Conclusion**: We confirmed previous findings that the topography of alpha oscillatory activity represents spatial location in working memory, deconfounding these effects from changes in aperiodic activity. Furthermore, we discovered that the aperiodic exponent represents spatial location during the first 400 ms after stimulus presentation. Together, these findings highlight the utility of sliding-window spectral parameterization to decouple and characterize two, time-varying, physiologically distinct neural mechanisms for encoding and working memory.
-{: .text-justify}
-
-- **Manuscript**
-    - **A. Bender**, C. Zhao, E. Awh, E. Vogel, B. Voytek. (2025). Differential representations of spatial location by aperiodic and alpha oscillatory activity in working memory. *Proceedings of the National Academy of Sciences*, 122(30), e2506418122. doi: https://doi.org/10.1073/pnas.2506418122.
-- **Presentation**
-    - **A. Bender,**, B. Voytek, Decoding spatial location from aperiodic and alpha oscillatory activity in working memory. *Society for Neuroscience*; 2023, November 13; San Diego, CA. ([presentation](/files/SfN2023Presentation.pdf))
 
 ## Classification of autism spectrum disorder from structural and functional magnetic resonance imaging using machine learning
 
