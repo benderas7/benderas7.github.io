@@ -32,11 +32,13 @@ across development. While none of these resting-state changes appear to be assoc
 vital for constraining generative models for alpha-band rhythms.
 
 - **Manuscript**
-    - **Bender A.**, Voytek B.\*, Schaworonkow N.\* Resting-state is not enough: alpha and mu rhythms change shape across development, but lack diagnostic sensitivity. doi: [https://doi.org/10.1101/2023.10.13.562301](https://doi.org/10.1101/2023.10.13.562301). \*These authors contributed equally to this work. 
+    - **A. Bender**, B. Voytek\*, N. Schaworonkow\*. (2025).
+          Resting-state alpha and mu rhythms change shape across development but lack diagnostic sensitivity for Attention-Deficit/Hyperactivity Disorder and Autism. *J Cogn Neurosci*. 37(9), 1581–1615.
+          doi: https://doi.org/10.1162/jocn_a_02323. \*These authors contributed equally to this work. 
 - **Presentations**
-    - **Bender, A.**, Schaworonkow, N., Voytek, B. Age-related changes in alpha and mu oscillation amplitude and waveform asymmetry. *Society for Neuroscience*; 2022, November 16; San Diego, CA. ([poster](/files/SfN2022Poster.pdf))
-    - **Bender, A.**, Schaworonkow, N., Voytek, B. Quantifying waveform shape of EEG alpha and mu oscillations across development. *Cognitive Neuroscience Society*; 2022, April 26; San Francisco, CA. ([poster](/files/CNS2022Poster.pdf))
-    - **Bender, A.**, Schaworonkow, N., Voytek, B. Quantifying waveform shape of EEG alpha and mu oscillations across development. *Society for Neuroscience*; 2021, November 9; remote. ([presentation](/files/SfN2021Presentation.pdf))
+    - **A. Bender**, B. Voytek, N. Schaworonkow. Age-related changes in alpha and mu oscillation amplitude and waveform asymmetry. *Society for Neuroscience*; 2022, November 16; San Diego, CA. ([poster](/files/SfN2022Poster.pdf))
+    - **A. Bender**, B. Voytek, N. Schaworonkow. Quantifying waveform shape of EEG alpha and mu oscillations across development. *Cognitive Neuroscience Society*; 2022, April 26; San Francisco, CA. ([poster](/files/CNS2022Poster.pdf))
+    - **A. Bender**, B. Voytek, N. Schaworonkow. Quantifying waveform shape of EEG alpha and mu oscillations across development. *Society for Neuroscience*; 2021, November 9; remote. ([presentation](/files/SfN2021Presentation.pdf))
 {: .text-justify}
 
 ## Representations of spatial location by aperiodic and alpha oscillatory activity in working memory
@@ -66,9 +68,9 @@ By contrast, representation of spatial location by the aperiodic exponent peaks 
 {: .text-justify}
 
 - **Manuscript**
-    - **Bender A.**, Zhao, C., Awh E., Vogel E., Voytek B., Distinct, time-varying roles for aperiodic and alpha oscillatory activity in working memory. *In preparation*.
+    - **A. Bender**, C. Zhao, E. Awh, E. Vogel, B. Voytek. (2025). Differential representations of spatial location by aperiodic and alpha oscillatory activity in working memory. *Proceedings of the National Academy of Sciences*, 122(30), e2506418122. doi: https://doi.org/10.1073/pnas.2506418122.
 - **Presentation**
-    - **Bender, A.**, Voytek, B. Decoding spatial location from aperiodic and alpha oscillatory activity in working memory. *Society for Neuroscience*; 2023, November 13; San Diego, CA. ([presentation](/files/SfN2023Presentation.pdf))
+    - **A. Bender,**, B. Voytek, Decoding spatial location from aperiodic and alpha oscillatory activity in working memory. *Society for Neuroscience*; 2023, November 13; San Diego, CA. ([presentation](/files/SfN2023Presentation.pdf))
 
 ## Classification of autism spectrum disorder from structural and functional magnetic resonance imaging using machine learning
 
@@ -95,8 +97,8 @@ We further showed through [distance to bound analysis](https://www.frontiersin.o
 {: .text-justify}
 
 - **Honors Thesis** (Awarded *Highest Honors in Neuroscience*)
-    - **Bender, A.**, Tovar, D.A., Wallace, M.T. Classification of Autism Spectrum Disorder Using Machine Learning. *Honors Thesis Defense*; 2019, April 18; Nashville, TN. ([paper](/files/HonorsThesis.pdf), [presentation](/files/HonorsThesisPresentation.pdf))
+    - **A. Bender**, D.A. Tovar, M.T. Wallace. Classification of Autism Spectrum Disorder Using Machine Learning. *Honors Thesis Defense*; 2019, April 18; Nashville, TN. ([paper](/files/HonorsThesis.pdf), [presentation](/files/HonorsThesisPresentation.pdf))
 - **Presentations**
-    - **Bender, A.**, Tovar, D.A., Ramachandran, R., Wallace, M.T. ASDNet: Classification of autism from MRI images using residual neural networks. *Vanderbilt Translational Research Forum*; 2018, October 26; Nashville, TN. ([poster](/files/TranslationalResearchForumPoster.pdf))
-    - **Bender, A.**, Tovar, D.A., Ramachandran, R., Wallace, M.T. ASDNet: Classification of autism from MRI images using residual neural networks. *Summer Student Poster Presentations: Vanderbilt Undergraduate Research Fair*; 2018, September 27; Nashville, TN. ([poster](/files/TranslationalResearchForumPoster.pdf))
+    - **A. Bender**, D.A. Tovar, R. Ramachandran, M.T. Wallace. ASDNet: Classification of autism from MRI images using residual neural networks. *Vanderbilt Translational Research Forum*; 2018, October 26; Nashville, TN. ([poster](/files/TranslationalResearchForumPoster.pdf))
+    - **A. Bender**, D.A. Tovar, R. Ramachandran, M.T. Wallace. ASDNet: Classification of autism from MRI images using residual neural networks. *Summer Student Poster Presentations: Vanderbilt Undergraduate Research Fair*; 2018, September 27; Nashville, TN. ([poster](/files/TranslationalResearchForumPoster.pdf))
 {: .text-justify}
