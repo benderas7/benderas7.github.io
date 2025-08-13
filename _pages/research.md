@@ -21,7 +21,8 @@ title: false
 
 Next, we discovered that alpha and mu rhythms are significantly different at age five and change differently across development:
 {: .text-justify}
-<img src="/assets/images/fig3_age.png" width="700">{: .align-center}
+<img src="/assets/images/fig3_age_top.png" width="700">{: .align-center}
+<img src="/assets/images/fig3_age_bottom.png" width="700">{: .align-center}
 
 Finally, we showed that neither alpha nor mu rhythms are sensitive biomarkers in resting-state EEG, implying sensitive EEG biomarkers for ASD and ADHD may require deficit-specific task operationalization:
 {: .text-justify}
