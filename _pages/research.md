@@ -4,7 +4,7 @@ title: false
 ---
 ## Developmental changes in alpha and mu rhythms
 
-**Update**: We recently published this work on *bioRxiv* and it is under review at the *Journal of Neuroscience*!
+**Update June 2025**: We recently published this work in the *Journal of Cognitive Neuroscience*!
 {: .notice--info}
 
 <img src="/assets/images/alpha_mu_traces.png" width="400">{: .align-right}
