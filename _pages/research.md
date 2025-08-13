@@ -32,7 +32,7 @@ By contrast, representation of spatial location by the aperiodic exponent peaks 
 
 - **Manuscript**
     - **A. Bender**, C. Zhao, E. Awh, E. Vogel, B. Voytek. (2025). Differential representations of spatial location by aperiodic and alpha oscillatory activity in working memory. *Proceedings of the National Academy of Sciences*, 122(30), e2506418122. doi: https://doi.org/10.1073/pnas.2506418122.
-- **Presentation**
+- **Presentations**
     - **A. Bender**, B. Voytek. Representations of spatial location by aperiodic and alpha oscillatory activity in working memory. *Cognitive Neuroscience Society*; 2024, April 14; Toronto, ON. ([poster](/files/CNS2024Poster.pdf))
     - **A. Bender,**, B. Voytek, Decoding spatial location from aperiodic and alpha oscillatory activity in working memory. *Society for Neuroscience*; 2023, November 13; San Diego, CA. ([presentation](/files/SfN2023Presentation.pdf))
 
